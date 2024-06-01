@@ -1,0 +1,40 @@
+body {
+  background: #f2f0e9;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.details {
+  font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
+    monospace;
+  text-align: right;
+}
+
+.details p {
+  margin-bottom: 0;
+  margin-top: 0.3rem;
+}
+
+#canvas {
+  width: 100%;
+}
+
+#canvas canvas {
+  border: 2px solid #0e0a0d;
+  width: 100%;
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 80vw;
+  }
+}
